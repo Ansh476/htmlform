@@ -33,17 +33,21 @@
                 <option value="XL">Xlarge</option>
                 <option value="XXL">XXlarge</option>
                 </select><br><br>
+                
+                <label for="delivery">Delivery:</label>
     
-                <input type="checkbox" id="date1"  required>
-                <label for="date">delivery in 7 days</label><br>
+                <input type="radio" id="sev" value="seven" name="delivery" required>
+                <label for="sev">delivery in 7 days</label>
     
-                <input type="checkbox" id="date2"  required>
-                <label for="date2">delivery in 14 days</label><br><br>
-    
-    
+                <input type="radio" id="four" value="fourteen" name="delivery" required>
+                <label for="four">delivery in 14 days</label>
+        
                 <label for="com">Comments:</label>
                 <textarea name="com" id="com" placeholder="enter additional suggestions" rows="3" cols="30"></textarea>
-                <br><br>
+                <br>
+                <input type="checkbox" id="tandc"  required>
+                <label for="tandc">agree to the terms and conditions</label><br>      
+                <br>
                 <input type="submit">
                 <input type="reset">
             </fieldset>
